@@ -1,0 +1,13 @@
+body {
+    color: white;
+    background-color: #171b21;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    background-color: grey;
+}

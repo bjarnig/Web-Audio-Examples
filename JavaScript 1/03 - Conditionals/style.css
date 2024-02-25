@@ -1,0 +1,22 @@
+body {
+    color: white;
+    background-color: #171b21;
+    font-family: monospace;
+}
+
+button {
+    width: 40%;
+    color: white;
+    background-color: #2f5172;
+    height: 50px;
+    font-size: 15px;
+    margin: 20px;
+    text-align: center;
+}
+
+.box {
+    overflow: auto;
+    height: 200px;
+    width: 600px;
+    border: 1px solid;
+}

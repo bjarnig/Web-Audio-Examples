@@ -1,0 +1,16 @@
+body {
+    color: white;
+    background-color: #171b21;
+    font-family: monospace;
+}
+
+a:link {
+    color: white;
+}
+
+#section {
+    border: 1px dashed;
+    margin: 10px;
+    height: 400px;
+    width: 400px;
+}

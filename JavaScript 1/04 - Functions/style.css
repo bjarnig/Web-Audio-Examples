@@ -1,0 +1,10 @@
+body {
+    color: white;
+    background-color: #171b21;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+a:hover { background-color: green; }
+
+p { margin: 40px;}
