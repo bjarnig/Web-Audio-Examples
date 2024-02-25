@@ -1,0 +1,40 @@
+body {
+    color: white;
+    background-color: #011627;
+}
+
+button {
+    font-family: monospace;
+    height: 150px;
+    width: 250px;
+    margin-left:40px;
+    background-color: #bd4138;
+    color: #F6F7F8;
+    font-size: 16px;
+    border: 2px solid #F6F7F8;
+}
+
+a {
+    color: #F6F7F8;
+}
+
+#synthesis {
+    border:solid;
+    margin:100px;
+    padding:50px;
+    height:230px;
+    width:900px;
+}
+
+#content {
+    margin-top:100px;
+    margin-bottom:-200px;
+    margin-left:50px;
+}
+
+#beee {
+    border:dashed;
+    margin:200px;
+    height:400px;
+    width:700px;
+}

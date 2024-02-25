@@ -1,0 +1,22 @@
+body {
+    color: white;
+    background-color: #011627;
+}
+
+button {
+    font-family: monospace;
+    height: 250px;
+    width: 250px;
+    margin: 40px;
+    background-color: #026C7C;
+    color: #F6F7F8;
+    font-size: 16px;
+    border: 2px solid #F6F7F8;
+}
+
+#synthesis {
+    border:dashed;
+    margin:200px;
+    height:400px;
+    width:700px;
+}

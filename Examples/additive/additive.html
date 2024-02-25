@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Additive Synthesis</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <div>
+    <h1>Additive Synthesis</h1>
+  </div>
+  <div>
+    <span class="label left-label">Frequency</span>
+    <input type="range" id="freq-slider" class="slider" min="20" max="2020" step="10" value="440" />
+    <br />
+    <span class="label left-label">Gain</span>
+    <input type="range" id="level-slider-1" class="slider" h="1" min="0" max="1" step="0.005" value="0.5" />
+    <span id="level-display-1" class="label level-label"></span>
+    <span id="freq-display-1" class="label freq-label"></span>
+    <br />
+    <span class="label left-label">Harmonic 2</span>
+    <input type="range" id="level-slider-2" class="slider" h="2" min="0" max="1" step="0.005" value="0" />
+    <span id="level-display-2" class="label level-label"></span>
+    <span id="freq-display-2" class="label freq-label"></span>
+    <br />
+    <span class="label left-label">Harmonic 3</span>
+    <input type="range" id="level-slider-3" class="slider" h="3" min="0" max="1" step="0.005" value="0" />
+    <span id="level-display-3" class="label level-label"></span>
+    <span id="freq-display-3" class="label freq-label"></span>
+    <br />
+    <span class="label left-label">Harmonic 4</span>
+    <input type="range" id="level-slider-4" class="slider" h="4" min="0" max="1" step="0.005" value="0" />
+    <span id="level-display-4" class="label level-label"></span>
+    <span id="freq-display-4" class="label freq-label"></span>
+    <br />
+    <span class="label left-label">Harmonic 5</span>
+    <input type="range" id="level-slider-5" class="slider" h="5" min="0" max="1" step="0.005" value="0" />
+    <span id="level-display-5" class="label level-label"></span>
+    <span id="freq-display-5" class="label freq-label"></span>
+    <br />
+    <span class="label left-label">Harmonic 6</span>
+    <input type="range" id="level-slider-6" class="slider" h="6" min="0" max="1" step="0.005" value="0" />
+    <span id="level-display-6" class="label level-label"></span>
+    <span id="freq-display-6" class="label freq-label"></span>
+    <br />
+    <span class="label left-label">Harmonic 7</span>
+    <input type="range" id="level-slider-7" class="slider" h="7" min="0" max="1" step="0.005" value="0" />
+    <span id="level-display-7" class="label level-label"></span>
+    <span id="freq-display-7" class="label freq-label"></span>
+    <br />
+    <span class="label left-label">Harmonic 8</span>
+    <input type="range" id="level-slider-8" class="slider" h="8" min="0" max="1" step="0.005" value="0" />
+    <span id="level-display-8" class="label level-label"></span>
+    <span id="freq-display-8" class="label freq-label"></span>
+    <br />
+    <span class="label left-label">Harmonic 9</span>
+    <input type="range" id="level-slider-9" class="slider" h="9" min="0" max="1" step="0.005" value="0" />
+    <span id="level-display-9" class="label level-label"></span>
+    <span id="freq-display-9" class="label freq-label"></span>
+    <br />
+    <span class="label left-label">Harmonic 10</span>
+    <input type="range" id="level-slider-10" class="slider" h="10" min="0" max="1" step="0.005" value="0" />
+    <span id="level-display-10" class="label level-label"></span>
+    <span id="freq-display-10" class="label freq-label"></span>
+  </div>
+  <div>
+    <input type="button" id="start" value="start" class="btn" />
+    <input type="button" id="stop" value="stop" class="btn" />
+  </div>
+
+</body>
+
+<script src="additive.js"></script>
+
+</html>

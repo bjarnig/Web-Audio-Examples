@@ -1,0 +1,28 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>MMLL - Onsets</title>
+</head>
+
+<body>
+    <div id="content">
+        <p> <a href="https://github.com/sicklincoln/MMLL"> https://github.com/sicklincoln/MMLL </a></p>
+    
+        <h1>MMLL testing audio onset detection</h1>
+
+        <input type="range" min="0" max="100" value="34" step="1" oninput="setThreshold(this.value)" /> Set threshold<br><br>
+
+        <canvas id="canvas" width="400" height="200">
+            This text is displayed if your browser does not support HTML5 Canvas.
+        </canvas><br><br>
+    </div>
+</body>
+
+<script src="MMLL.js"></script>
+<script src="onsets.js"></script>
+
+<!-- Reference to the stylesheet -->
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+</html>
